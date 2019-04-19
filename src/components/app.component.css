@@ -1,0 +1,21 @@
+.intro {
+	background-color: blue;
+}
+
+.clickButton {
+	display: flex;
+	justify-content: row;
+	margin: 5px;
+}
+
+.textField {
+	display: flex;
+	justify-content: row;
+	margin: 5px;
+}
+
+.paragraph {
+	display: flex;
+	justify-content: row;
+	margin: 15px;
+}

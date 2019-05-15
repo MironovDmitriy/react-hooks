@@ -13,6 +13,13 @@ module.exports = {
 		watchContentBase: true,
 		progress: true,
 	},
+	devtool: 'source-map',
+	resolve: {
+		alias: {
+			proj: path.resolve(__dirname, 'src') // для имени пути импорта
+		},
+		extensions: ['.js', '.ts'] // указываем какие расширения необходимо обрабатывать
+	},
 	module: {
 		rules: [
 			{
